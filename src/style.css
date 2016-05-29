@@ -8,6 +8,7 @@
 }
 
 #_chatSendToolExtension li span {
+  -webkit-user-select: none;
   border-radius: 2px;
   color: #ffffff;
   display: inline-block;
