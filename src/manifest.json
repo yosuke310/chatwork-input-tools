@@ -2,7 +2,7 @@
   "content_scripts": [{
     "css": ["style.css"],
     "include_globs": ["https://www.chatwork.com/#!rid*", "https://kcw.kddi.ne.jp/#!rid*"],
-    "js": ["content-script.js"],
+    "js": ["./feature/tag-button.js", "./feature/large-to-list.js"],
     "matches": ["https://www.chatwork.com/*", "https://kcw.kddi.ne.jp/*"],
     "run_at": "document_end"
   }],

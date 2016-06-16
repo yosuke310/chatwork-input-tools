@@ -11,14 +11,8 @@ const buttons = [{
   html: '<li role="button" class="_showDescription" aria-label="hr：メッセージにhrタグを挿入します"><span class="tag">hr</span></li>',
   tag: ['[hr]'],
 }, {
-  html: '<li role="button" class="_showDescription" aria-label="bow：メッセージにおじぎエモーティコンを挿入します"><span class="emo">bow</span></li>',
-  tag: ['(bow)'],
-}, {
-  html: '<li role="button" class="_showDescription" aria-label="roger：メッセージに了解！エモーティコンを挿入します"><span class="emo">roger</span></li>',
-  tag: ['(roger)'],
-}, {
-  html: '<li role="button" class="_showDescription" aria-label="roger：メッセージにクラッカーエモーティコンを挿入します"><span class="emo">cracker</span></li>',
-  tag: ['(cracker)'],
+  html: '<li role="button" class="_showDescription" aria-label="( ´ー`)。о（）：選択したメッセージを( ´ー`)。о（）で囲みます"><span class="tag">( ´ー`)。о（）</span></li>',
+  tag: ['( ´ー`)。о（', '）'],
 }];
 
 let chatTextarea = document.getElementById('_chatText')
