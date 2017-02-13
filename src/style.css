@@ -5,6 +5,7 @@
 
 #_chatSendToolExtension li {
   display: inline-block;
+  padding-left: 4px;
 }
 
 #_chatSendToolExtension li span {
